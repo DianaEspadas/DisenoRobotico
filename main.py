@@ -15,5 +15,6 @@ try:
     radio = float(input("Introduce el radio de la esfera: "))
     volumen = calcular_volumen_esfera(radio)
     print(f"El volumen de la esfera con radio {radio} es: {volumen:.2f}")
+    print(f"El perímetro de la esfera con radio {radio} es: {2 * math.pi * radio:.2f}")
 except ValueError as e:
     print(f"Error: {e}")
